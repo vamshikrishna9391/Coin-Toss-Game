@@ -1,0 +1,107 @@
+/* Write your CSS here */
+p {
+  margin: 0;
+  padding: 0;
+}
+.coin-toss-app {
+  height: 100vh;
+  background-color: #f9d423;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-card {
+  background-color: #fff;
+  padding: 26px 23px 23px 23px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 420px;
+  /* width: 400px; */
+}
+
+@media (max-width: 768px) {
+  .coin-toss-card {
+    width: 300px;
+  }
+}
+
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 38px;
+}
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2em;
+    font-weight: 500;
+  }
+}
+
+.heads-tails {
+  font-size: 20px;
+  font-weight: 650;
+  color: #334155;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  .heads-tails {
+    font-size: 24px;
+  }
+}
+
+.toss-img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .toss-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.toss-btn {
+  border: 0;
+  color: #a35200;
+  background-color: #f9d423;
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.toss-counts-card {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .toss-counts-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+
+.toss-count {
+  font-size: 15px;
+  color: #475569;
+  font-weight: 650;
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .toss-count {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+}
